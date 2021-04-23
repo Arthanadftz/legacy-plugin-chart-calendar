@@ -1,4 +1,4 @@
-## @superset-ui/legacy-plugin-chart-calendar
+## @arthanasti/legacy-plugin-chart-calendar
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-calendar.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/legacy-plugin-chart-calendar)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-calendar&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-calendar)
@@ -11,7 +11,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
+import CalendarChartPlugin from '@arthanasti/legacy-plugin-chart-calendar';
 
 new CalendarChartPlugin().configure({ key: 'calendar' }).register();
 ```
